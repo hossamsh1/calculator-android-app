@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".testpag"
+    android:background="@color/white"
+    >
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_marginTop="570dp"
+    android:backgroundTint="#00AFF5"
+    app:cardCornerRadius="20dp"
+    >
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        >
+        <EditText
+            android:id="@+id/inputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:hint="Enter text"
+            android:inputType="textCapWords"
+            android:background="#70D7FF"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:text="Submit"
+        android:textSize="25sp"
+        android:backgroundTint="#00668F"
+        />
+
+</androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/imvregect"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/regect"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:id="@+id/imvaccept"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/accept"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:id="@+id/compile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/compile"
+
+        />
+
+
+</RelativeLayout>

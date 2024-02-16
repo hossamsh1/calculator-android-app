@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#00AFF5"
+        android:layout_marginStart="10dp"
+       android:layout_marginEnd="10dp"
+       app:cardCornerRadius="80dp"
+        >
+        <Button
+            android:id="@+id/buttest"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:text="Test"
+            android:textSize="25sp"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="#00668F"
+            />
+
+       <Button
+           android:id="@+id/NFA"
+           android:layout_width="wrap_content"
+           android:layout_height="100dp"
+           android:layout_marginTop="50dp"
+           android:text="NFA"
+           android:textSize="25sp"
+           android:layout_marginStart="120dp"
+           android:backgroundTint="#00668F"
+           />
+        <Button
+            android:id="@+id/DFA"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:text="DFA"
+            android:textSize="25sp"
+            android:layout_marginStart="220dp"
+            android:backgroundTint="#00668F"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/compile"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/iconhom"
+
+        />
+    <ImageView
+        android:id="@+id/lamp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/lampfinal"
+
+        />
+
+</RelativeLayout>
